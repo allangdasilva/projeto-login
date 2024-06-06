@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Paleta de cores
 Verde: #49a09d
@@ -13,7 +14,7 @@ body, html {
     width: 100vw;
     height: 100vh;
     background-color: #5f2c82;
-    overflow:hidden
+    overflow: hidden;
 }
 main {
     position: relative;
@@ -21,8 +22,8 @@ main {
     height: 100vh;
 }
 section#login {
-    width: 200px;
-    height: 400px;
+    width: 250px;
+    height: 480px;
     background-color: white;
     position: absolute;
 
@@ -41,17 +42,66 @@ section#login {
 }
 section#login div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/tela02.jpg);
+    background: #5f2c82 url(../imagens/tela02.jpg) no-repeat;
     height: 200px;
     background-size: cover;
+    background-position: left bottom;
 }
 section#login div#formulario {
     display: block;
-    padding: 10px;
+    padding: 5px;
+    padding-top: 0px;
 }
 div#formulario h1 {
-    padding-bottom: 8px;
+    margin-bottom: 4px;
 }
 div#formulario p {
     font-size: 0.7em;
+}
+form div.campo {
+    background-color: #d3d3d34b;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 0px 10px 0px 10px;
+}
+div.campo label {
+    display: none;
+}
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+form input[type=submit]:hover {
+    background-color: #2b5f5d;
+}
+form a.botao {
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    color: #49a09d;
+    border:  1px solid #49a09d;
+    border-radius: 10px 0px 10px 0px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+form a.botao:hover {
+    background-color: #2b5f5d;
+    color: white;
+}
+form a.botao span {
+    font-size: 0.8em;
+}
+div.campo span {
+    padding-top: 10px;
+    font-size: 1em;
 }
