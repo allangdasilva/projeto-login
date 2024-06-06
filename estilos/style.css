@@ -13,7 +13,8 @@ Lilás: #5f2c82
 body, html {
     width: 100vw;
     height: 100vh;
-    background-color: #5f2c82;
+    background-color: #5f2c82; 
+    position: relative;
     overflow: hidden;
 }
 main {
@@ -27,7 +28,7 @@ section#login {
     background-color: white;
     position: absolute;
 
-    top: 50%;
+    top: 45%;
     left: 50%;
     
 
