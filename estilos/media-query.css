@@ -13,6 +13,12 @@
     section#login > div#formulario {
         width: 99%;
     }
+    div#formulario h1 {
+        text-align: center;
+    }
+    div#formulario p {
+        font-size: 0.8em;
+    }
 }
 @media screen and (min-width:900px) {
     body {
@@ -26,8 +32,13 @@
         width: 50%;
         height: 100%;
     }
-    section#login div#formulario {
-        
+    div#formulario h1 {
+        padding-bottom: 8px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    div#formulario p {
+        font-size: 1em;
     }
     
 }
