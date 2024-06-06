@@ -21,11 +21,13 @@
     }
     form {
         display: block;
-        margin: auto;
+        width: 70%;
+        padding-left: 0px;
         float: left;
     }
     div#formulario p {
-        font-size: 0.8em;
+        font-size: 0.9em;
+        margin-bottom: 8px;
     }
     }
 @media screen and (min-width:900px) {
@@ -34,6 +36,7 @@
     }
     section#login {
         width: 880px;
+        height: 360px;
     }
     section#login div#imagem {
         float: right;
@@ -41,17 +44,24 @@
         height: 100%;
     }
     div#formulario h1 {
-        padding-bottom: 8px;
+        padding-bottom: 7px;
         font-size: 1.8em;
         text-align: center;
     }
     div#formulario p {
         font-size: 1em;
+        margin-bottom: 10px;
     }
     form {
         display: block;
-        width: 430px;
+        width: 49.4%;
         padding-left: 0px;
         float: left;
+    }
+    form input#ilogin {
+        margin-top: ;
+    }
+    form input.entrar {
+        margin-top: 6px;
     }
     }

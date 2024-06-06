@@ -81,6 +81,23 @@ form > input[type=submit] {
 form input[type=submit]:hover {
     background-color: #2b5f5d;
 }
+div.campo span {
+    font-size: 1em;
+    width: 40px;
+    padding: 12px;
+}
+div.campo input {
+    background-color: #99c0bf49;
+    font-size: 1em;
+    height: 100%;
+    transform: translateY(-1.2px);
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    width:calc(100% - 44.4px);
+}
+div.campo input:focus-within {
+    background-color: white;
+}
 form a.botao {
     display: block;
     text-align: center;
@@ -100,8 +117,4 @@ form a.botao:hover {
 }
 form a.botao span {
     font-size: 0.8em;
-}
-div.campo span {
-    padding-top: 10px;
-    font-size: 1em;
 }
