@@ -15,7 +15,6 @@ body, html {
     height: 100vh;
     background-color: #5f2c82; 
     position: relative;
-    overflow: hidden;
 }
 main {
     position: relative;
@@ -28,7 +27,7 @@ section#login {
     background-color: white;
     position: absolute;
 
-    top: 45%;
+    top: 50%;
     left: 50%;
     
 
